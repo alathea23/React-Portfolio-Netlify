@@ -15,5 +15,6 @@ License:
     N/A
 
 [Github URL:](https://alathea23.github.io/Coding-Portfoli0---Jenny-Wannier/)
+[Live Site:](https://animated-faun-728395.netlify.app/)
 
-![Alt text](images/screenshotPortfolio.png)
+![Site Image](./public/Jenny%20Wannier%20Tarzian%20-%20Software%20Engineer.html)
