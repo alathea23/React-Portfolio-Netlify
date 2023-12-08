@@ -45,7 +45,7 @@ export default function Portfolio() {
             <a href="https://alathea23.github.io/Challenge3/">Persnickity Passwords</a>
           </button>
           <button class="button2">
-            <a href="https://github.com/alathea23/Challenge3.git">Persnickity Passwords</a>
+            <a href="https://github.com/alathea23/Challenge3.git">GitHub</a>
           </button>
         </div>
       </div>
@@ -55,7 +55,7 @@ export default function Portfolio() {
             <a href="https://alathea23.github.io/Daily-Diligence-Development/">Daily Diligence</a>
           </button>
           <button class="button2">
-            <a href="https://github.com/alathea23/Daily-Diligence-Development.git">Persnickity Passwords</a>
+            <a href="https://github.com/alathea23/Daily-Diligence-Development.git">GitHub</a>
           </button>
         </div>
       </div>
