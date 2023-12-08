@@ -1,0 +1,316 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* basic stylings */
+  body {
+    font-family: 'Comfortaa';
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+  }
+  
+  img {
+    max-width: 150px;
+    display: flex;
+    max-height: 150px;
+    border-radius: 90px;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #6b9775;
+    color: #fff;
+    margin-top: auto;
+  }
+  
+  /* heading and nav styling */
+  header {
+    padding: 25px;
+    text-align: center;
+    background: #6b9775;
+    color: #fff;
+    font-family: 'Comfortaa';
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  nav {
+    display: flex;
+    background-color: #debfa9;
+    justify-content: left;
+  }
+  
+  /*taking off auto-formatting */
+  nav a {
+    color: #13293d;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: rgb(226, 220, 220);
+  }
+  
+  nav a:visited {
+    text-decoration: none;
+    color: rgb(16, 62, 95);
+  }
+  
+  .contact a:visited {
+    text-decoration: none;
+    color: rgb(16, 62, 95);
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: rgb(16, 62, 95);
+  }
+  
+  .button a:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .button a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* formatting sub-containers in the body */
+  .segment {
+    display: flex;
+    width: 90%;
+    margin: 1% auto;
+  }
+  
+  .segment-title {
+    display: flex;
+    align-items: center;
+    min-width: 115px;
+    border-right-color: #13293d;
+    border-right-width: 3px;
+    border-right-style: double;
+    justify-content: right;
+    text-align: right;
+    padding-right: 15px;
+  }
+  
+  .segment-details {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 3%;
+    flex: 0 0 85%;
+    border-color: #1d92a4;
+    border-width: 3px;
+    border-style: ridge;
+    box-shadow: yes, #7f9ea3, 15px;
+  }
+  
+  /* formatting project containers */
+  .project {
+    border-width: 4px;
+    border-color: rgb(39, 39, 81);
+    border-style: ridge;
+    margin: 6px;
+    padding: 6px;
+    flex-wrap: wrap;
+  }
+  
+  .projects {
+    border-width: 4px;
+    border-color: rgb(39, 39, 81);
+    border-style: ridge;
+    margin: 6px;
+    padding: 6px;
+    flex-wrap: wrap;
+    width: 48.5% !important
+  }
+  
+  /*
+  .linkIMG {
+    float: left;
+    display: flex;
+    margin-right: 25px;
+    width: 100%;
+    z-index: 1;
+    flex-wrap: wrap;
+  }
+  */
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .relative-1 {
+    position: relative;
+    background-image: url(./images/Trivia2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-width: 47%;
+    height: 300px;
+    flex-shrink: 3;
+  }
+  
+  .relative-2 {
+    position: relative;
+    background-image: url(./images/Property_mgmt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 47%;
+    min-height: 47%;
+    height: 300px;
+    flex-shrink: 3;
+  }
+  
+  .relative-3 {
+    position: relative;
+    background-image: url(./images/weather.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 47%;
+    height: 300px;
+    flex-shrink: 3;
+  }
+  
+  .relative-4 {
+    position: relative;
+    background-image: url(./images/Password.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 47%;
+    height: 300px;
+    flex-shrink: 3;
+  }
+  
+  .relative-5 {
+    position: relative;
+    background-image: url(./images/DailyDilligence2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 47%;
+    height: 300px;
+    flex-shrink: 3;
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  
+  .about {
+    padding: 15px;
+  }
+  
+  .contact-container {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contact {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  /* formatting buttons */
+  .button {
+    border-style: ridge;
+    border-color: White;
+    border-width: 4px;
+    border-left-style: none;
+    padding: 4px;
+    margin-left: -7px;
+    background-color: rgb(21, 146, 53);
+    display: inline-flex;
+    color: white !important;
+    padding: 15px;
+    font-size: 18px;
+    height: 25%;
+    opacity: 75%;
+    border-radius: 0, 0, 10, 10;
+    font-weight: bolder;
+    z-index: 2;
+    position: absolute;
+    left: 0px;
+    top: 170px;
+    text-align: center;
+  }
+  
+  /*  adjusting box size for medium size screens*/
+  @media screen and (max-width: 1200px) {
+  
+    .projects {
+      width: 48.5% !important;
+      margin: 4px;
+      padding: 4px;
+    }
+  
+  }
+  
+  
+  /* setting up media screens  adjustments for small screens*/
+  @media screen and (max-width: 768px) {
+  
+    main,
+    nav,
+    .product {
+      flex-direction: column;
+    }
+  
+    .projects {
+      width: 47.% !important;
+      margin: 3px;
+      padding: 3px;
+    }
+  
+    .segment-details {
+      margin-top: 7px;
+      margin-bottom: 7px;
+      flex: 0 0 86%;
+      padding: 1%;
+      margin-left: 0;
+    }
+  
+    .segment-title {
+      max-height: 80px;
+      min-height: 80px;
+      width: 30px;
+      min-width: 60px;
+      max-width: 60px;
+      padding-left: 0px;
+      margin-left: 7px;
+      vertical-align: center;
+      transform: rotate(-90deg);
+      padding-bottom: 8px;
+      border-right: none;
+      align-content: bottom;
+    }
+  
+    .segment {
+      display: flex;
+      width: 100%;
+      margin: 1% auto;
+    }
+  
+    .contact-container {
+      padding: 15px;
+      display: block
+    }
+  }

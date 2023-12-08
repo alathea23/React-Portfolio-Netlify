@@ -1,20 +1,57 @@
 export default function Contact() {
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <section class="segment">
+      <div class="segment-title" id="contact">
+        <h2>
+          Contact
+        </h2>
+      </div>
+      <div class="segment-details about" id="contact">
+          <form target="textarea.formsReturn" method="POST" id="myForm">
+            <p>
+              <label for="username">Name:</label>
+              <input
+                class="text-input"
+                id="username"
+                type="text"
+                placeholder="First Last"
+              />
+            </p>
+            <p>
+              <label for="phone">Phone:</label>
+              <input
+                class="text-input"
+                id="phone"
+                type="number"
+                placeholder="XXX-XXX-XXXX"
+              />
+            </p>
+            <p>
+              <label for="email">E-mail:</label>
+              <input
+                class="text-input"
+                id="email"
+                type="text"
+                placeholder="me@example.com"
+              />
+            </p>
+            <p>
+              <label for="description">Message:</label>
+              <textarea
+                class="text-input"
+                id="description"
+                placeholder="Your Message"
+              ></textarea>
+            </p>
+            <p>
+              <button type="submit" id="button">
+                Submit
+              </button>
+            </p>
+          </form>
+        </div>
+      </section>
     </div>
   );
 }
