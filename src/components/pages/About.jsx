@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div>
     <section class="segment">
-      <div class="segment-title" id="aboutH">
+      <div class="segment-title" id="about">
         <h2>
           About <br /> Me
         </h2>
