@@ -13,6 +13,9 @@ export default function Portfolio() {
           <button class="button">
             <a href="https://alathea23.github.io/Coding-Quiz-Inquisitor/">Coding Inquisitor</a>
           </button>
+          <button class="button2">
+            <a href="https://github.com/alathea23/Coding-Quiz-Inquisitor.git/">GitHub</a>
+          </button>
         </div>
       </div>
       <div class="project-container">
@@ -21,12 +24,18 @@ export default function Portfolio() {
           <button class="button">
             <a href="https://giancarlow333.github.io/property-mgmt-portal/">TAS Property Management</a>
           </button>
+          <button class="button2">
+            <a href="https://github.com/giancarlow333/property-mgmt-portal.git/">GitHub</a>
+          </button>
         </div>
       </div>
       <div class="project relative-3">
         <div class="">
           <button class="button">
             <a href="https://alathea23.github.io/Weather-Beaten-Wisdom/">Weather Wisdom</a>
+          </button>
+          <button class="button2">
+            <a href="https://github.com/alathea23/Weather-Beaten-Wisdom.git/">GitHub</a>
           </button>
         </div>
       </div>
@@ -35,12 +44,18 @@ export default function Portfolio() {
           <button class="button">
             <a href="https://alathea23.github.io/Challenge3/">Persnickity Passwords</a>
           </button>
+          <button class="button2">
+            <a href="https://github.com/alathea23/Challenge3.git">Persnickity Passwords</a>
+          </button>
         </div>
       </div>
       <div class="project relative-5">
         <div>
           <button class="button">
             <a href="https://alathea23.github.io/Daily-Diligence-Development/">Daily Diligence</a>
+          </button>
+          <button class="button2">
+            <a href="https://github.com/alathea23/Daily-Diligence-Development.git">Persnickity Passwords</a>
           </button>
         </div>
       </div>
