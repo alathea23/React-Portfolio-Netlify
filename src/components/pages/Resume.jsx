@@ -8,7 +8,7 @@ export default function Resume() {
         </h2>
       </div>
       <div class="segment-details about" id="contact">
-      <a href="/images/myw3schoolsimage.jpg" download>My Resume
+      <a href="./public/Jenny Wannier Tarzian - Coding Resume.pdf" download>My Resume
 </a>
         </div>
         </section>
